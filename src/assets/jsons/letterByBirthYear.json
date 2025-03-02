@@ -1,0 +1,526 @@
+[
+  {
+    "year": 1890,
+    "letter": "M"
+  },
+  {
+    "year": 1891,
+    "letter": "L"
+  },
+  {
+    "year": 1892,
+    "letter": "C"
+  },
+  {
+    "year": 1893,
+    "letter": "H"
+  },
+  {
+    "year": 1894,
+    "letter": "P"
+  },
+  {
+    "year": 1895,
+    "letter": "N"
+  },
+  {
+    "year": 1896,
+    "letter": "E"
+  },
+  {
+    "year": 1897,
+    "letter": "K"
+  },
+  {
+    "year": 1898,
+    "letter": "I"
+  },
+  {
+    "year": 1899,
+    "letter": "H"
+  },
+  {
+    "year": 1900,
+    "letter": "P"
+  },
+  {
+    "year": 1901,
+    "letter": "N"
+  },
+  {
+    "year": 1902,
+    "letter": "M"
+  },
+  {
+    "year": 1903,
+    "letter": "L"
+  },
+  {
+    "year": 1904,
+    "letter": "C"
+  },
+  {
+    "year": 1905,
+    "letter": "H"
+  },
+  {
+    "year": 1906,
+    "letter": "P"
+  },
+  {
+    "year": 1907,
+    "letter": "N"
+  },
+  {
+    "year": 1908,
+    "letter": "E"
+  },
+  {
+    "year": 1909,
+    "letter": "K"
+  },
+  {
+    "year": 1910,
+    "letter": "I"
+  },
+  {
+    "year": 1911,
+    "letter": "H"
+  },
+  {
+    "year": 1912,
+    "letter": "G"
+  },
+  {
+    "year": 1913,
+    "letter": "M"
+  },
+  {
+    "year": 1914,
+    "letter": "L"
+  },
+  {
+    "year": 1915,
+    "letter": "K"
+  },
+  {
+    "year": 1916,
+    "letter": "B"
+  },
+  {
+    "year": 1917,
+    "letter": "P"
+  },
+  {
+    "year": 1918,
+    "letter": "N"
+  },
+  {
+    "year": 1919,
+    "letter": "M"
+  },
+  {
+    "year": 1920,
+    "letter": "D"
+  },
+  {
+    "year": 1921,
+    "letter": "I"
+  },
+  {
+    "year": 1922,
+    "letter": "H"
+  },
+  {
+    "year": 1923,
+    "letter": "P"
+  },
+  {
+    "year": 1924,
+    "letter": "F"
+  },
+  {
+    "year": 1925,
+    "letter": "L"
+  },
+  {
+    "year": 1926,
+    "letter": "K"
+  },
+  {
+    "year": 1927,
+    "letter": "I"
+  },
+  {
+    "year": 1928,
+    "letter": "A"
+  },
+  {
+    "year": 1929,
+    "letter": "N"
+  },
+  {
+    "year": 1930,
+    "letter": "M"
+  },
+  {
+    "year": 1931,
+    "letter": "L"
+  },
+  {
+    "year": 1932,
+    "letter": "C"
+  },
+  {
+    "year": 1933,
+    "letter": "H"
+  },
+  {
+    "year": 1934,
+    "letter": "P"
+  },
+  {
+    "year": 1935,
+    "letter": "N"
+  },
+  {
+    "year": 1936,
+    "letter": "E"
+  },
+  {
+    "year": 1937,
+    "letter": "K"
+  },
+  {
+    "year": 1938,
+    "letter": "I"
+  },
+  {
+    "year": 1939,
+    "letter": "H"
+  },
+  {
+    "year": 1940,
+    "letter": "G"
+  },
+  {
+    "year": 1941,
+    "letter": "M"
+  },
+  {
+    "year": 1942,
+    "letter": "L"
+  },
+  {
+    "year": 1943,
+    "letter": "K"
+  },
+  {
+    "year": 1944,
+    "letter": "B"
+  },
+  {
+    "year": 1945,
+    "letter": "P"
+  },
+  {
+    "year": 1946,
+    "letter": "N"
+  },
+  {
+    "year": 1947,
+    "letter": "M"
+  },
+  {
+    "year": 1948,
+    "letter": "D"
+  },
+  {
+    "year": 1949,
+    "letter": "I"
+  },
+  {
+    "year": 1950,
+    "letter": "H"
+  },
+  {
+    "year": 1951,
+    "letter": "P"
+  },
+  {
+    "year": 1952,
+    "letter": "F"
+  },
+  {
+    "year": 1953,
+    "letter": "L"
+  },
+  {
+    "year": 1954,
+    "letter": "K"
+  },
+  {
+    "year": 1955,
+    "letter": "I"
+  },
+  {
+    "year": 1956,
+    "letter": "A"
+  },
+  {
+    "year": 1957,
+    "letter": "N"
+  },
+  {
+    "year": 1958,
+    "letter": "M"
+  },
+  {
+    "year": 1959,
+    "letter": "L"
+  },
+  {
+    "year": 1960,
+    "letter": "C"
+  },
+  {
+    "year": 1961,
+    "letter": "H"
+  },
+  {
+    "year": 1962,
+    "letter": "P"
+  },
+  {
+    "year": 1963,
+    "letter": "N"
+  },
+  {
+    "year": 1964,
+    "letter": "E"
+  },
+  {
+    "year": 1965,
+    "letter": "K"
+  },
+  {
+    "year": 1966,
+    "letter": "I"
+  },
+  {
+    "year": 1967,
+    "letter": "H"
+  },
+  {
+    "year": 1968,
+    "letter": "G"
+  },
+  {
+    "year": 1969,
+    "letter": "M"
+  },
+  {
+    "year": 1970,
+    "letter": "L"
+  },
+  {
+    "year": 1971,
+    "letter": "K"
+  },
+  {
+    "year": 1972,
+    "letter": "B"
+  },
+  {
+    "year": 1973,
+    "letter": "P"
+  },
+  {
+    "year": 1974,
+    "letter": "N"
+  },
+  {
+    "year": 1975,
+    "letter": "M"
+  },
+  {
+    "year": 1976,
+    "letter": "D"
+  },
+  {
+    "year": 1977,
+    "letter": "I"
+  },
+  {
+    "year": 1978,
+    "letter": "H"
+  },
+  {
+    "year": 1979,
+    "letter": "P"
+  },
+  {
+    "year": 1980,
+    "letter": "F"
+  },
+  {
+    "year": 1981,
+    "letter": "L"
+  },
+  {
+    "year": 1982,
+    "letter": "K"
+  },
+  {
+    "year": 1983,
+    "letter": "I"
+  },
+  {
+    "year": 1984,
+    "letter": "A"
+  },
+  {
+    "year": 1985,
+    "letter": "N"
+  },
+  {
+    "year": 1986,
+    "letter": "P"
+  },
+  {
+    "year": 1987,
+    "letter": "L"
+  },
+  {
+    "year": 1988,
+    "letter": "C"
+  },
+  {
+    "year": 1989,
+    "letter": "H"
+  },
+  {
+    "year": 1990,
+    "letter": "P"
+  },
+  {
+    "year": 1991,
+    "letter": "N"
+  },
+  {
+    "year": 1992,
+    "letter": "E"
+  },
+  {
+    "year": 1993,
+    "letter": "K"
+  },
+  {
+    "year": 1994,
+    "letter": "I"
+  },
+  {
+    "year": 1995,
+    "letter": "H"
+  },
+  {
+    "year": 1996,
+    "letter": "G"
+  },
+  {
+    "year": 1997,
+    "letter": "M"
+  },
+  {
+    "year": 1998,
+    "letter": "L"
+  },
+  {
+    "year": 1999,
+    "letter": "K"
+  },
+  {
+    "year": 2000,
+    "letter": "P"
+  },
+  {
+    "year": 2001,
+    "letter": "N"
+  },
+  {
+    "year": 2002,
+    "letter": "M"
+  },
+  {
+    "year": 2003,
+    "letter": "D"
+  },
+  {
+    "year": 2004,
+    "letter": "I"
+  },
+  {
+    "year": 2005,
+    "letter": "H"
+  },
+  {
+    "year": 2006,
+    "letter": "P"
+  },
+  {
+    "year": 2007,
+    "letter": "F"
+  },
+  {
+    "year": 2008,
+    "letter": "L"
+  },
+  {
+    "year": 2009,
+    "letter": "K"
+  },
+  {
+    "year": 2010,
+    "letter": "I"
+  },
+  {
+    "year": 2011,
+    "letter": "H"
+  },
+  {
+    "year": 2012,
+    "letter": "P"
+  },
+  {
+    "year": 2013,
+    "letter": "F"
+  },
+  {
+    "year": 2014,
+    "letter": "L"
+  },
+  {
+    "year": 2015,
+    "letter": "K"
+  },
+  {
+    "year": 2016,
+    "letter": "I"
+  },
+  {
+    "year": 2017,
+    "letter": "A"
+  },
+  {
+    "year": 2018,
+    "letter": "M"
+  },
+  {
+    "year": 2019,
+    "letter": "N"
+  },
+  {
+    "year": 2020,
+    "letter": "D"
+  }
+]
