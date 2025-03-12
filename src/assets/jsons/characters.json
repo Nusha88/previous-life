@@ -1,36 +1,1352 @@
 [
   {
     "type": "triangle",
+    "dates": [
+      {
+        "date": 1,
+        "isMan": 5,
+        "isWoman": 22,
+        "task": 6
+      },
+      {
+        "date": 2,
+        "isMan": 5,
+        "isWoman": 22,
+        "task": 7
+      },
+      {
+        "date": 3,
+        "isMan": 46,
+        "isWoman": 17,
+        "task": 1
+      },
+      {
+        "date": 4,
+        "isMan": 46,
+        "isWoman": 17,
+        "task": 2
+      },
+      {
+        "date": 5,
+        "isMan": 46,
+        "isWoman": 17,
+        "task": 3
+      },
+      {
+        "date": 6,
+        "isMan": 46,
+        "isWoman": 17,
+        "task": 4
+      },
+      {
+        "date": 7,
+        "isMan": 46,
+        "isWoman": 17,
+        "task": 5
+      },
+      {
+        "date": 8,
+        "isMan": 46,
+        "isWoman": 17,
+        "task": 6
+      },
+      {
+        "date": 9,
+        "isMan": 46,
+        "isWoman": 17,
+        "task": 7
+      },
+      {
+        "date": 10,
+        "isMan": 37,
+        "isWoman": 36,
+        "task": 1
+      },
+      {
+        "date": 11,
+        "isMan": 37,
+        "isWoman": 36,
+        "task": 2
+      },
+      {
+        "date": 12,
+        "isMan": 37,
+        "isWoman": 36,
+        "task": 3
+      },
+      {
+        "date": 13,
+        "isMan": 37,
+        "isWoman": 36,
+        "task": 4
+      },
+      {
+        "date": 14,
+        "isMan": 37,
+        "isWoman": 36,
+        "task": 5
+      },
+      {
+        "date": 15,
+        "isMan": 37,
+        "isWoman": 36,
+        "task": 6
+      },
+      {
+        "date": 16,
+        "isMan": 37,
+        "isWoman": 36,
+        "task": 7
+      },
+      {
+        "date": 17,
+        "isMan": 48,
+        "isWoman": 59,
+        "task": 1
+      },
+      {
+        "date": 18,
+        "isMan": 48,
+        "isWoman": 59,
+        "task": 2
+      },
+      {
+        "date": 19,
+        "isMan": 48,
+        "isWoman": 59,
+        "task": 3
+      },
+      {
+        "date": 20,
+        "isMan": 48,
+        "isWoman": 59,
+        "task": 4
+      },
+      {
+        "date": 21,
+        "isMan": 48,
+        "isWoman": 59,
+        "task": 5
+      },
+      {
+        "date": 22,
+        "isMan": 48,
+        "isWoman": 59,
+        "task": 6
+      },
+      {
+        "date": 23,
+        "isMan": 48,
+        "isWoman": 59,
+        "task": 7
+      },
+      {
+        "date": 24,
+        "isMan": 65,
+        "isWoman": 51,
+        "task": 1
+      },
+      {
+        "date": 25,
+        "isMan": 65,
+        "isWoman": 51,
+        "task": 2
+      },
+      {
+        "date": 26,
+        "isMan": 65,
+        "isWoman": 51,
+        "task": 3
+      },
+      {
+        "date": 27,
+        "isMan": 65,
+        "isWoman": 51,
+        "task": 4
+      },
+      {
+        "date": 28,
+        "isMan": 65,
+        "isWoman": 51,
+        "task": 5
+      },
+      {
+        "date": 29,
+        "isMan": 65,
+        "isWoman": 51,
+        "task": 6
+      },
+      {
+        "date": 30,
+        "isMan": 65,
+        "isWoman": 51,
+        "task": 7
+      },
+      {
+        "date": 31,
+        "isMan": 6,
+        "isWoman": 9,
+        "task": 1
+      }
+    ],
     "odd": "Человек, умеющий властвовать собой, рассудительный, энергичный, с качествами руководителя.",
     "even": "Человек постоянно находился под внутренним напряжением, был очень старателен во всем, обладал качествами вождя и революционера."
   },
   {
     "type": "circle",
+    "dates": [
+      {
+        "date": 1,
+        "isMan": 28,
+        "isWoman": 40,
+        "task": 1
+      },
+      {
+        "date": 2,
+        "isMan": 28,
+        "isWoman": 40,
+        "task": 2
+      },
+      {
+        "date": 3,
+        "isMan": 28,
+        "isWoman": 40,
+        "task": 3
+      },
+      {
+        "date": 4,
+        "isMan": 28,
+        "isWoman": 40,
+        "task": 4
+      },
+      {
+        "date": 5,
+        "isMan": 28,
+        "isWoman": 40,
+        "task": 5
+      },
+      {
+        "date": 6,
+        "isMan": 28,
+        "isWoman": 40,
+        "task": 6
+      },
+      {
+        "date": 7,
+        "isMan": 28,
+        "isWoman": 40,
+        "task": 7
+      },
+      {
+        "date": 8,
+        "isMan": 58,
+        "isWoman": 2,
+        "task": 1
+      },
+      {
+        "date": 9,
+        "isMan": 58,
+        "isWoman": 2,
+        "task": 2
+      },
+      {
+        "date": 10,
+        "isMan": 58,
+        "isWoman": 2,
+        "task": 3
+      },
+      {
+        "date": 11,
+        "isMan": 58,
+        "isWoman": 2,
+        "task": 4
+      },
+      {
+        "date": 12,
+        "isMan": 58,
+        "isWoman": 2,
+        "task": 5
+      },
+      {
+        "date": 13,
+        "isMan": 58,
+        "isWoman": 2,
+        "task": 6
+      },
+      {
+        "date": 14,
+        "isMan": 58,
+        "isWoman": 2,
+        "task": 7
+      },
+      {
+        "date": 15,
+        "isMan": 10,
+        "isWoman": 64,
+        "task": 1
+      },
+      {
+        "date": 16,
+        "isMan": 10,
+        "isWoman": 64,
+        "task": 2
+      },
+      {
+        "date": 17,
+        "isMan": 10,
+        "isWoman": 64,
+        "task": 3
+      },
+      {
+        "date": 18,
+        "isMan": 10,
+        "isWoman": 64,
+        "task": 4
+      },
+      {
+        "date": 19,
+        "isMan": 10,
+        "isWoman": 64,
+        "task": 5
+      },
+      {
+        "date": 20,
+        "isMan": 10,
+        "isWoman": 64,
+        "task": 6
+      },
+      {
+        "date": 21,
+        "isMan": 10,
+        "isWoman": 64,
+        "task": 7
+      },
+      {
+        "date": 22,
+        "isMan": 38,
+        "isWoman": 56,
+        "task": 1
+      },
+      {
+        "date": 23,
+        "isMan": 38,
+        "isWoman": 56,
+        "task": 2
+      },
+      {
+        "date": 24,
+        "isMan": 38,
+        "isWoman": 56,
+        "task": 3
+      },
+      {
+        "date": 25,
+        "isMan": 38,
+        "isWoman": 56,
+        "task": 5
+      },
+      {
+        "date": 26,
+        "isMan": 38,
+        "isWoman": 56,
+        "task": 5
+      },
+      {
+        "date": 27,
+        "isMan": 38,
+        "isWoman": 56,
+        "task": 6
+      },
+      {
+        "date": 28,
+        "isMan": 38,
+        "isWoman": 56,
+        "task": 7
+      },
+      {
+        "date": 29,
+        "isMan": 11,
+        "isWoman": 35,
+        "task": 1
+      },
+      {
+        "date": 30,
+        "isMan": 11,
+        "isWoman": 35,
+        "task": 12
+      },
+      {
+        "date": 31,
+        "isMan": 11,
+        "isWoman": 35,
+        "task": 3
+      }
+    ],
     "odd": "У этого человека были способности изобретателя, актера, драматурга, он был очень старателен, педанти-чен, но, возможно, обладал некоторыми чертами инквизитора.",
     "even": "Человека этого привлекало все новое, разнообразное, вызывающее радость, но он, возможно, совершал и противозаконные действия. Он увлекался музыкой, танцами, искусством, кулинарией и др."
   },
   {
     "type": "brackets",
+    "dates": [
+      {
+        "date": 1,
+        "isMan": 29,
+        "isWoman": 19,
+        "task": 5
+      },
+      {
+        "date": 2,
+        "isMan": 29,
+        "isWoman": 19,
+        "task": 6
+      },
+      {
+        "date": 3,
+        "isMan": 29,
+        "isWoman": 19,
+        "task": 7
+      },
+      {
+        "date": 4,
+        "isMan": 53,
+        "isWoman": 37,
+        "task": 1
+      },
+      {
+        "date": 5,
+        "isMan": 53,
+        "isWoman": 37,
+        "task": 2
+      },
+      {
+        "date": 6,
+        "isMan": 53,
+        "isWoman": 37,
+        "task": 3
+      },
+      {
+        "date": 7,
+        "isMan": 53,
+        "isWoman": 37,
+        "task": 4
+      },
+      {
+        "date": 8,
+        "isMan": 53,
+        "isWoman": 37,
+        "task": 5
+      },
+      {
+        "date": 9,
+        "isMan": 53,
+        "isWoman": 37,
+        "task": 6
+      },
+      {
+        "date": 10,
+        "isMan": 53,
+        "isWoman": 37,
+        "task": 7
+      },
+      {
+        "date": 11,
+        "isMan": 30,
+        "isWoman": 13,
+        "task": 1
+      },
+      {
+        "date": 12,
+        "isMan": 30,
+        "isWoman": 13,
+        "task": 2
+      },
+      {
+        "date": 13,
+        "isMan": 30,
+        "isWoman": 13,
+        "task": 3
+      },
+      {
+        "date": 14,
+        "isMan": 30,
+        "isWoman": 13,
+        "task": 4
+      },
+      {
+        "date": 15,
+        "isMan": 30,
+        "isWoman": 13,
+        "task": 5
+      },
+      {
+        "date": 16,
+        "isMan": 30,
+        "isWoman": 13,
+        "task": 6
+      },
+      {
+        "date": 17,
+        "isMan": 30,
+        "isWoman": 13,
+        "task": 7
+      },
+      {
+        "date": 18,
+        "isMan": 69,
+        "isWoman": 32,
+        "task": 1
+      },
+      {
+        "date": 19,
+        "isMan": 69,
+        "isWoman": 32,
+        "task": 2
+      },
+      {
+        "date": 20,
+        "isMan": 69,
+        "isWoman": 32,
+        "task": 3
+      },
+      {
+        "date": 21,
+        "isMan": 69,
+        "isWoman": 32,
+        "task": 4
+      },
+      {
+        "date": 22,
+        "isMan": 69,
+        "isWoman": 32,
+        "task": 5
+      },
+      {
+        "date": 23,
+        "isMan": 69,
+        "isWoman": 32,
+        "task": 6
+      },
+      {
+        "date": 24,
+        "isMan": 69,
+        "isWoman": 32,
+        "task": 7
+      },
+      {
+        "date": 25,
+        "isMan": 1,
+        "isWoman": 31,
+        "task": 1
+      },
+      {
+        "date": 26,
+        "isMan": 1,
+        "isWoman": 31,
+        "task": 2
+      },
+      {
+        "date": 27,
+        "isMan": 1,
+        "isWoman": 31,
+        "task": 3
+      },
+      {
+        "date": 28,
+        "isMan": 1,
+        "isWoman": 31,
+        "task": 4
+      },
+      {
+        "date": 29,
+        "isMan": 1,
+        "isWoman": 31,
+        "task": 5
+      },
+      {
+        "date": 30,
+        "isMan": 1,
+        "isWoman": 31,
+        "task": 6
+      },
+      {
+        "date": 31,
+        "isMan": 1,
+        "isWoman": 31,
+        "task": 7
+      }
+    ],
     "odd": "Идеалист, правдоискатель, может быть, ясновидящий.",
     "even": "Неутомимый путешественник, исследователь, человек, постоянно находившийся в движении."
   },
   {
     "type": "epsilon",
+    "dates": [
+      {
+        "date": 1,
+        "isMan": 74,
+        "isWoman": 15,
+        "task": 2
+      },
+      {
+        "date": 2,
+        "isMan": 74,
+        "isWoman": 15,
+        "task": 3
+      },
+      {
+        "date": 3,
+        "isMan": 74,
+        "isWoman": 15,
+        "task": 4
+      },
+      {
+        "date": 4,
+        "isMan": 74,
+        "isWoman": 15,
+        "task": 5
+      },
+      {
+        "date": 5,
+        "isMan": 74,
+        "isWoman": 15,
+        "task": 6
+      },
+      {
+        "date": 6,
+        "isMan": 74,
+        "isWoman": 15,
+        "task": 7
+      },
+      {
+        "date": 7,
+        "isMan": 4,
+        "isWoman": 49,
+        "task": 1
+      },
+      {
+        "date": 8,
+        "isMan": 4,
+        "isWoman": 49,
+        "task": 2
+      },
+      {
+        "date": 9,
+        "isMan": 4,
+        "isWoman": 49,
+        "task": 3
+      },
+      {
+        "date": 10,
+        "isMan": 4,
+        "isWoman": 49,
+        "task": 4
+      },
+      {
+        "date": 11,
+        "isMan": 4,
+        "isWoman": 49,
+        "task": 5
+      },
+      {
+        "date": 12,
+        "isMan": 4,
+        "isWoman": 49,
+        "task": 6
+      },
+      {
+        "date": 13,
+        "isMan": 4,
+        "isWoman": 49,
+        "task": 7
+      },
+      {
+        "date": 14,
+        "isMan": 47,
+        "isWoman": 12,
+        "task": 1
+      },
+      {
+        "date": 15,
+        "isMan": 47,
+        "isWoman": 12,
+        "task": 2
+      },
+      {
+        "date": 16,
+        "isMan": 47,
+        "isWoman": 12,
+        "task": 3
+      },
+      {
+        "date": 17,
+        "isMan": 47,
+        "isWoman": 12,
+        "task": 4
+      },
+      {
+        "date": 18,
+        "isMan": 47,
+        "isWoman": 12,
+        "task": 5
+      },
+      {
+        "date": 19,
+        "isMan": 47,
+        "isWoman": 12,
+        "task": 6
+      },
+      {
+        "date": 20,
+        "isMan": 47,
+        "isWoman": 12,
+        "task": 7
+      },
+      {
+        "date": 21,
+        "isMan": 20,
+        "isWoman": 39,
+        "task": 1
+      },
+      {
+        "date": 22,
+        "isMan": 20,
+        "isWoman": 39,
+        "task": 2
+      },
+      {
+        "date": 23,
+        "isMan": 20,
+        "isWoman": 39,
+        "task": 3
+      },
+      {
+        "date": 24,
+        "isMan": 20,
+        "isWoman": 39,
+        "task": 4
+      },
+      {
+        "date": 25,
+        "isMan": 20,
+        "isWoman": 39,
+        "task": 5
+      },
+      {
+        "date": 26,
+        "isMan": 20,
+        "isWoman": 39,
+        "task": 6
+      },
+      {
+        "date": 27,
+        "isMan": 20,
+        "isWoman": 39,
+        "task": 7
+      },
+      {
+        "date": 28,
+        "isMan": 26,
+        "isWoman": 33,
+        "task": 1
+      },
+      {
+        "date": 29,
+        "isMan": 26,
+        "isWoman": 33,
+        "task": 2
+      },
+      {
+        "date": 30,
+        "isMan": 26,
+        "isWoman": 33,
+        "task": 3
+      },
+      {
+        "date": 31,
+        "isMan": 26,
+        "isWoman": 33,
+        "task": 4
+      }
+    ],
     "odd": "Рассудительный, готовый помочь, практичный человек.",
     "even": "Решительный, отчаянный, упрямый фанатик. Он мог быть охотником, колдуном, атеистом или священнослужителем."
   },
   {
     "type": "forever",
+    "dates": [
+      {
+        "date": 1,
+        "isMan": 23,
+        "isWoman": 42,
+        "task": 4
+      },
+      {
+        "date": 2,
+        "isMan": 23,
+        "isWoman": 42,
+        "task": 5
+      },
+      {
+        "date": 3,
+        "isMan": 23,
+        "isWoman": 42,
+        "task": 6
+      },
+      {
+        "date": 4,
+        "isMan": 23,
+        "isWoman": 42,
+        "task": 7
+      },
+      {
+        "date": 5,
+        "isMan": 21,
+        "isWoman": 60,
+        "task": 1
+      },
+      {
+        "date": 6,
+        "isMan": 21,
+        "isWoman": 60,
+        "task": 2
+      },
+      {
+        "date": 7,
+        "isMan": 21,
+        "isWoman": 60,
+        "task": 3
+      },
+      {
+        "date": 8,
+        "isMan": 21,
+        "isWoman": 60,
+        "task": 4
+      },
+      {
+        "date": 9,
+        "isMan": 21,
+        "isWoman": 60,
+        "task": 5
+      },
+      {
+        "date": 10,
+        "isMan": 21,
+        "isWoman": 60,
+        "task": 6
+      },
+      {
+        "date": 11,
+        "isMan": 21,
+        "isWoman": 60,
+        "task": 7
+      },
+      {
+        "date": 12,
+        "isMan": 44,
+        "isWoman": 24,
+        "task": 1
+      },
+      {
+        "date": 13,
+        "isMan": 44,
+        "isWoman": 24,
+        "task": 2
+      },
+      {
+        "date": 14,
+        "isMan": 44,
+        "isWoman": 24,
+        "task": 3
+      },
+      {
+        "date": 15,
+        "isMan": 44,
+        "isWoman": 24,
+        "task": 4
+      },
+      {
+        "date": 16,
+        "isMan": 44,
+        "isWoman": 24,
+        "task": 5
+      },
+      {
+        "date": 17,
+        "isMan": 44,
+        "isWoman": 24,
+        "task": 6
+      },
+      {
+        "date": 18,
+        "isMan": 44,
+        "isWoman": 24,
+        "task": 7
+      },
+      {
+        "date": 19,
+        "isMan": 16,
+        "isWoman": 3,
+        "task": 1
+      },
+      {
+        "date": 20,
+        "isMan": 16,
+        "isWoman": 3,
+        "task": 2
+      },
+      {
+        "date": 21,
+        "isMan": 16,
+        "isWoman": 3,
+        "task": 3
+      },
+      {
+        "date": 22,
+        "isMan": 16,
+        "isWoman": 3,
+        "task": 4
+      },
+      {
+        "date": 23,
+        "isMan": 16,
+        "isWoman": 3,
+        "task": 5
+      },
+      {
+        "date": 24,
+        "isMan": 16,
+        "isWoman": 3,
+        "task": 6
+      },
+      {
+        "date": 25,
+        "isMan": 16,
+        "isWoman": 3,
+        "task": 7
+      },
+      {
+        "date": 26,
+        "isMan": 43,
+        "isWoman": 52,
+        "task": 1
+      },
+      {
+        "date": 27,
+        "isMan": 43,
+        "isWoman": 52,
+        "task": 2
+      },
+      {
+        "date": 28,
+        "isMan": 43,
+        "isWoman": 52,
+        "task": 3
+      },
+      {
+        "date": 29,
+        "isMan": 43,
+        "isWoman": 52,
+        "task": 4
+      },
+      {
+        "date": 30,
+        "isMan": 43,
+        "isWoman": 52,
+        "task": 5
+      },
+      {
+        "date": 31,
+        "isMan": 43,
+        "isWoman": 52,
+        "task": 6
+      }
+    ],
     "odd": "Загадочный, гениальный человек, склонный к богеме. Может быть, экстрасенс или черный маг.",
     "even": "Спокойный, хладнокровный, обладающий от природы способностями психолога."
   },
   {
     "type": "psychology",
+    "dates": [
+      {
+        "date": 1,
+        "isMan": 34,
+        "isWoman": 18,
+        "task": 3
+      },
+      {
+        "date": 2,
+        "isMan": 34,
+        "isWoman": 18,
+        "task": 4
+      },
+      {
+        "date": 3,
+        "isMan": 34,
+        "isWoman": 18,
+        "task": 5
+      },
+      {
+        "date": 4,
+        "isMan": 34,
+        "isWoman": 18,
+        "task": 6
+      },
+      {
+        "date": 5,
+        "isMan": 34,
+        "isWoman": 18,
+        "task": 7
+      },
+      {
+        "date": 6,
+        "isMan": 27,
+        "isWoman": 25,
+        "task": 1
+      },
+      {
+        "date": 7,
+        "isMan": 27,
+        "isWoman": 25,
+        "task": 2
+      },
+      {
+        "date": 8,
+        "isMan": 27,
+        "isWoman": 25,
+        "task": 3
+      },
+      {
+        "date": 9,
+        "isMan": 27,
+        "isWoman": 25,
+        "task": 4
+      },
+      {
+        "date": 10,
+        "isMan": 27,
+        "isWoman": 25,
+        "task": 5
+      },
+      {
+        "date": 11,
+        "isMan": 27,
+        "isWoman": 25,
+        "task": 6
+      },
+      {
+        "date": 12,
+        "isMan": 27,
+        "isWoman": 25,
+        "task": 7
+      },
+      {
+        "date": 13,
+        "isMan": 14,
+        "isWoman": 57,
+        "task": 1
+      },
+      {
+        "date": 14,
+        "isMan": 14,
+        "isWoman": 57,
+        "task": 2
+      },
+      {
+        "date": 15,
+        "isMan": 14,
+        "isWoman": 57,
+        "task": 3
+      },
+      {
+        "date": 16,
+        "isMan": 14,
+        "isWoman": 57,
+        "task": 4
+      },
+      {
+        "date": 17,
+        "isMan": 14,
+        "isWoman": 57,
+        "task": 5
+      },
+      {
+        "date": 18,
+        "isMan": 14,
+        "isWoman": 57,
+        "task": 6
+      },
+      {
+        "date": 19,
+        "isMan": 14,
+        "isWoman": 57,
+        "task": 7
+      },
+      {
+        "date": 20,
+        "isMan": 41,
+        "isWoman": 45,
+        "task": 1
+      },
+      {
+        "date": 21,
+        "isMan": 41,
+        "isWoman": 45,
+        "task": 2
+      },
+      {
+        "date": 22,
+        "isMan": 41,
+        "isWoman": 45,
+        "task": 3
+      },
+      {
+        "date": 23,
+        "isMan": 41,
+        "isWoman": 45,
+        "task": 4
+      },
+      {
+        "date": 24,
+        "isMan": 41,
+        "isWoman": 45,
+        "task": 5
+      },
+      {
+        "date": 25,
+        "isMan": 41,
+        "isWoman": 45,
+        "task": 6
+      },
+      {
+        "date": 26,
+        "isMan": 41,
+        "isWoman": 45,
+        "task": 7
+      },
+      {
+        "date": 27,
+        "isMan": 50,
+        "isWoman": 62,
+        "task": 1
+      },
+      {
+        "date": 28,
+        "isMan": 50,
+        "isWoman": 62,
+        "task": 2
+      },
+      {
+        "date": 29,
+        "isMan": 50,
+        "isWoman": 62,
+        "task": 3
+      },
+      {
+        "date": 30,
+        "isMan": 50,
+        "isWoman": 62,
+        "task": 4
+      },
+      {
+        "date": 31,
+        "isMan": 50,
+        "isWoman": 62,
+        "task": 5
+      }
+    ],
     "odd": "Творческая, артистическая, покладистая, но безнравственная натура.",
     "even": "Скромный, спокойный, с творческими особенностями, но требующий поддержки. Иногда мог вести себя несколько странно."
   },
   {
     "type": "omega",
+    "dates": [
+      {
+        "date": 1,
+        "isMan": 73,
+        "isWoman": 8,
+        "task": 6
+      },
+      {
+        "date": 2,
+        "isMan": 63,
+        "isWoman": 55,
+        "task": 1
+      },
+      {
+        "date": 3,
+        "isMan": 63,
+        "isWoman": 55,
+        "task": 2
+      },
+      {
+        "date": 4,
+        "isMan": 63,
+        "isWoman": 55,
+        "task": 3
+      },
+      {
+        "date": 5,
+        "isMan": 63,
+        "isWoman": 55,
+        "task": 4
+      },
+      {
+        "date": 6,
+        "isMan": 63,
+        "isWoman": 55,
+        "task": 5
+      },
+      {
+        "date": 7,
+        "isMan": 63,
+        "isWoman": 55,
+        "task": 6
+      },
+      {
+        "date": 8,
+        "isMan": 63,
+        "isWoman": 55,
+        "task": 7
+      },
+      {
+        "date": 9,
+        "isMan": 66,
+        "isWoman": 70,
+        "task": 1
+      },
+      {
+        "date": 10,
+        "isMan": 66,
+        "isWoman": 70,
+        "task": 2
+      },
+      {
+        "date": 11,
+        "isMan": 66,
+        "isWoman": 70,
+        "task": 3
+      },
+      {
+        "date": 12,
+        "isMan": 66,
+        "isWoman": 70,
+        "task": 4
+      },
+      {
+        "date": 13,
+        "isMan": 66,
+        "isWoman": 70,
+        "task": 5
+      },
+      {
+        "date": 14,
+        "isMan": 66,
+        "isWoman": 70,
+        "task": 6
+      },
+      {
+        "date": 15,
+        "isMan": 66,
+        "isWoman": 70,
+        "task": 7
+      },
+      {
+        "date": 16,
+        "isMan": 54,
+        "isWoman": 68,
+        "task": 1
+      },
+      {
+        "date": 17,
+        "isMan": 54,
+        "isWoman": 68,
+        "task": 2
+      },
+      {
+        "date": 18,
+        "isMan": 54,
+        "isWoman": 68,
+        "task": 3
+      },
+      {
+        "date": 19,
+        "isMan": 54,
+        "isWoman": 68,
+        "task": 4
+      },
+      {
+        "date": 20,
+        "isMan": 54,
+        "isWoman": 68,
+        "task": 5
+      },
+      {
+        "date": 21,
+        "isMan": 54,
+        "isWoman": 68,
+        "task": 6
+      },
+      {
+        "date": 22,
+        "isMan": 54,
+        "isWoman": 68,
+        "task": 7
+      },
+      {
+        "date": 23,
+        "isMan": 61,
+        "isWoman": 71,
+        "task": 1
+      },
+      {
+        "date": 24,
+        "isMan": 61,
+        "isWoman": 71,
+        "task": 2
+      },
+      {
+        "date": 25,
+        "isMan": 61,
+        "isWoman": 71,
+        "task": 3
+      },
+      {
+        "date": 26,
+        "isMan": 61,
+        "isWoman": 71,
+        "task": 4
+      },
+      {
+        "date": 27,
+        "isMan": 61,
+        "isWoman": 71,
+        "task": 5
+      },
+      {
+        "date": 28,
+        "isMan": 61,
+        "isWoman": 71,
+        "task": 6
+      },
+      {
+        "date": 29,
+        "isMan": 61,
+        "isWoman": 71,
+        "task": 7
+      },
+      {
+        "date": 30,
+        "isMan": 72,
+        "isWoman": 7,
+        "task": 1
+      },
+      {
+        "date": 31,
+        "isMan": 72,
+        "isWoman": 7,
+        "task": 2
+      }
+    ],
     "odd": "Человек большого ума, с математическими способностями. Другие люди часто не понимали его.",
     "even": "Разумный, хорошо владеющий собой, умеющий тщательно оценить ситуацию, требовательный и иногда безжалостный, с сильным характером. Его уважали, его советы ценили, но его не все любили."
   }

@@ -62,6 +62,7 @@
         <div v-if="state.character" class="text-center">
           <h2 class="mt-5 mb-3">Отличительные черты характера в прошлой жизни: <span class="text-amber"
           >{{ state.character }}</span></h2>
+          <h4>Предполагаемое место рождения {{state.placeOfBirth}}</h4>
         </div>
       </div>
     </v-responsive>
@@ -84,6 +85,8 @@ const state = reactive({
   dateOfBirth: '',
   yearLetter: '',
   error: '',
+  placeOfBirth: '',
+  task: '',
   character: '',
   lettersByYear: [],
   lifeCharacters: [],
@@ -135,6 +138,9 @@ const onFindProfession = () => {
 const onFindCharacter = () => {
   const character = state.characters.find((obj) => obj.type === state.lifeCharacter.characterType)
   state.character = isOddOrEven(state.dateOfBirth) ? character.even : character.odd
+  const dateObj = character.dates.find((obj) => obj.date === Number(state.dateOfBirth))
+  console.log(character, state.dateOfBirth)
+  state.placeOfBirth = state.lifeCharacter.isMan ? dateObj.isMan : dateObj.isWoman
 }
 
 onMounted(() => {
@@ -153,6 +159,7 @@ watch(() => state.yearOfBirth,
         state.profession = {},
         state.character = '',
         state.error = ''
+        state.placeOfBirth = ''
     }
   })
 
