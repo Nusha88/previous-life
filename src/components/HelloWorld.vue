@@ -5,7 +5,7 @@
       max-width="900"
     >
       <!--      <Professions/>-->
-      <h1 class="text-center text-amber text-uppercase mb-5">Кем ты был в прошлой жизни?</h1>
+      <h1 class="text-center text-amber text-uppercase mb-5">Кем вы были в прошлой жизни?</h1>
       <v-text-field
         v-model="state.yearOfBirth"
         clearable
@@ -42,11 +42,10 @@
         v-if="!isEmpty(state.profession)"
         class="mt-5 text-center"
       >
-        <h2>В прошлой жизни вы были <span class="text-amber">{{ gender }}</span></h2>
-        <h2>Предположительная профессия: <span class="text-amber">{{ state.profession.name }}</span></h2>
+        <h2 class="mb-3"><span class="text-amber">В прошлой жизни вы были</span> {{ gender }}</h2>
+        <h2 class="mb-3"><span class="text-amber">Предположительная профессия: </span>{{ state.profession.name }}</h2>
       </div>
-      <div v-if="!isEmpty(state.profession)">
-        <hr class="mb-5">
+      <div v-if="!isEmpty(state.profession)" class="mt-5">
         <v-text-field
           v-model="state.dateOfBirth"
           clearable
@@ -59,10 +58,12 @@
         >
           Узнать характер
         </v-btn>
-        <div v-if="state.character" class="text-center">
-          <h2 class="mt-5 mb-3">Отличительные черты характера в прошлой жизни: <span class="text-amber"
-          >{{ state.character }}</span></h2>
-          <h4>Предполагаемое место рождения {{state.placeOfBirth}}</h4>
+        <div v-if="state.character">
+          <h2 class="mt-5 mb-3"><span class="text-amber">Отличительные черты характера в прошлой жизни: </span>
+            {{ state.character }}</h2>
+          <h2 class="mb-3"><span class="text-amber">Предполагаемое место и год рождения:</span>
+            {{ state.placeOfBirth.place }}, {{ state.lifeCharacter.year }}</h2>
+          <h2 class="mb-3"><span class="text-amber">Задача текущей жизни:</span> {{ state.task.description }}</h2>
         </div>
       </div>
     </v-responsive>
@@ -74,6 +75,8 @@ import letterByYear from '/src/assets/jsons/letterByBirthYear.json'
 import lifeCharacter from '/src/assets/jsons/previousLifeCharacter.json'
 import professionList from '/src/assets/jsons/professions.json'
 import characters from '/src/assets/jsons/characters.json'
+import places from '/src/assets/jsons/placeOfBirth.json'
+import tasks from '/src/assets/jsons/tasks.json'
 import {computed, reactive, onMounted, watch} from "vue";
 import {isEmpty} from "lodash";
 
@@ -94,6 +97,8 @@ const state = reactive({
   lifeCharacter: {},
   profession: {},
   characters: [],
+  places: [],
+  tasks: [],
 })
 
 const isButtonDisabled = computed(() => Boolean(!state.yearOfBirth.length && !state.monthOfBirth.length))
@@ -139,8 +144,20 @@ const onFindCharacter = () => {
   const character = state.characters.find((obj) => obj.type === state.lifeCharacter.characterType)
   state.character = isOddOrEven(state.dateOfBirth) ? character.even : character.odd
   const dateObj = character.dates.find((obj) => obj.date === Number(state.dateOfBirth))
-  console.log(character, state.dateOfBirth)
-  state.placeOfBirth = state.lifeCharacter.isMan ? dateObj.isMan : dateObj.isWoman
+  const task = state.tasks.find((task) => task.id === dateObj.task)
+  state.task = task.date.find((obj) => Number(state.dateOfBirth) > obj.min && Number(state.dateOfBirth) < obj.max)
+  const placeId = state.lifeCharacter.isMan ? dateObj.isMan : dateObj.isWoman
+  state.placeOfBirth = state.places.find((place) => place.id === placeId)
+}
+
+const resetFields = () => {
+  state.yearOfBirth = ''
+  state.monthOfBirth = ''
+  state.dateOfBirth = ''
+  state.profession = {}
+  state.character = ''
+  state.error = ''
+  state.placeOfBirth = ''
 }
 
 onMounted(() => {
@@ -148,18 +165,36 @@ onMounted(() => {
   state.lifeCharacters = lifeCharacter
   state.professionList = professionList
   state.characters = characters
+  state.places = places
+  state.tasks = tasks
 })
 
 watch(() => state.yearOfBirth,
   (newVal) => {
     if (!newVal) {
-      state.yearOfBirth = '',
-        state.monthOfBirth = '',
-        state.dateOfBirth = '',
-        state.profession = {},
-        state.character = '',
-        state.error = ''
-        state.placeOfBirth = ''
+      resetFields()
+    }
+  })
+
+watch(() => state.monthOfBirth,
+  (newVal) => {
+    if (!newVal) {
+      state.monthOfBirth = ''
+      state.dateOfBirth = ''
+      state.profession = {}
+      state.character = ''
+      state.error = ''
+      state.placeOfBirth = ''
+    }
+  })
+
+watch(() => state.dateOfBirth,
+  (newVal) => {
+    if (!newVal) {
+      state.character = ''
+      state.error = ''
+      state.task = ''
+      state.placeOfBirth = ''
     }
   })
 

@@ -6,73 +6,85 @@
         "month": "Январь",
         "isMan": true,
         "profession": "T1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1225
       },
       {
         "month": "Февраль",
         "isMan": false,
         "profession": "T4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1150
       },
       {
         "month": "Март",
         "isMan": true,
         "profession": "S4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1600
       },
       {
         "month": "Апрель",
         "isMan": false,
         "profession": "S3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1200
       },
       {
         "month": "Май",
         "isMan": true,
         "profession": "U7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 750
       },
       {
         "month": "Июнь",
         "isMan": false,
         "profession": "R6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1475
       },
       {
         "month": "Июль",
         "isMan": true,
         "profession": "R3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1825
       },
       {
         "month": "Август",
         "isMan": false,
         "profession": "U2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1275
       },
       {
         "month": "Сентябрь",
         "isMan": true,
         "profession": "S5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1400
       },
       {
         "month": "Октябрь",
         "isMan": false,
         "profession": "S1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 950
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1675
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "R5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1325
       }
     ]
   },
@@ -83,73 +95,85 @@
         "month": "Январь",
         "isMan": true,
         "profession": "T2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1175
       },
       {
         "month": "Февраль",
         "isMan": false,
         "profession": "T5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1750
       },
       {
         "month": "Март",
         "isMan": true,
         "profession": "S5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1875
       },
       {
         "month": "Апрель",
         "isMan": false,
         "profession": "S7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1850
       },
       {
         "month": "Май",
         "isMan": true,
         "profession": "U4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1400
       },
       {
         "month": "Июнь",
         "isMan": false,
         "profession": "R3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1600
       },
       {
         "month": "Июль",
         "isMan": true,
         "profession": "R7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1825
       },
       {
         "month": "Август",
         "isMan": false,
         "profession": "U6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1150
       },
       {
         "month": "Сентябрь",
         "isMan": true,
         "profession": "S1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1275
       },
       {
         "month": "Октябрь",
         "isMan": false,
         "profession": "S2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1525
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1850
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "R1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 975
       }
     ]
   },
@@ -160,73 +184,85 @@
         "month": "Январь",
         "isMan": true,
         "profession": "T3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 575
       },
       {
         "month": "Февраль",
         "isMan": false,
         "profession": "T2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1700
       },
       {
         "month": "Март",
         "isMan": true,
         "profession": "S2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1025
       },
       {
         "month": "Апрель",
         "isMan": false,
         "profession": "S5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 400
       },
       {
         "month": "Май",
         "isMan": true,
         "profession": "U1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1675
       },
       {
         "month": "Июнь",
         "isMan": false,
         "profession": "R4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1775
       },
       {
         "month": "Июль",
         "isMan": true,
         "profession": "R5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 775
       },
       {
         "month": "Август",
         "isMan": false,
         "profession": "U7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1725
       },
       {
         "month": "Сентябрь",
         "isMan": true,
         "profession": "S6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 475
       },
       {
         "month": "Октябрь",
         "isMan": false,
         "profession": "S3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1775
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 850
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "R6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1450
       }
     ]
   },
@@ -237,73 +273,85 @@
         "month": "Январь",
         "isMan": true,
         "profession": "T3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 975
       },
       {
         "month": "Февраль",
         "isMan": false,
         "profession": "T4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1575
       },
       {
         "month": "Март",
         "isMan": true,
         "profession": "S3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 650
       },
       {
         "month": "Апрель",
         "isMan": false,
         "profession": "S2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1050
       },
       {
         "month": "Май",
         "isMan": true,
         "profession": "U6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 525
       },
       {
         "month": "Июнь",
         "isMan": false,
         "profession": "R1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 700
       },
       {
         "month": "Июль",
         "isMan": true,
         "profession": "R2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1175
       },
       {
         "month": "Август",
         "isMan": false,
         "profession": "U5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1350
       },
       {
         "month": "Сентябрь",
         "isMan": true,
         "profession": "S7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 850
       },
       {
         "month": "Октябрь",
         "isMan": false,
         "profession": "S4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1350
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1775
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "R7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1125
       }
     ]
   },
@@ -314,73 +362,85 @@
         "month": "Январь",
         "isMan": true,
         "profession": "T5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1800
       },
       {
         "month": "Февраль",
         "isMan": false,
         "profession": "T7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1550
       },
       {
         "month": "Март",
         "isMan": true,
         "profession": "S7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 375
       },
       {
         "month": "Апрель",
         "isMan": false,
         "profession": "S6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1250
       },
       {
         "month": "Май",
         "isMan": true,
         "profession": "U3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1575
       },
       {
         "month": "Июнь",
         "isMan": false,
         "profession": "R2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1300
       },
       {
         "month": "Июль",
         "isMan": true,
         "profession": "R6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1425
       },
       {
         "month": "Август",
         "isMan": false,
         "profession": "U1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1200
       },
       {
         "month": "Сентябрь",
         "isMan": true,
         "profession": "S4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1575
       },
       {
         "month": "Октябрь",
         "isMan": false,
         "profession": "S5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 775
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1600
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "R4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1200
       }
     ]
   },
@@ -391,73 +451,85 @@
         "month": "Январь",
         "isMan": true,
         "profession": "T6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1075
       },
       {
         "month": "Февраль",
         "isMan": false,
         "profession": "T1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 950
       },
       {
         "month": "Март",
         "isMan": true,
         "profession": "S1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1750
       },
       {
         "month": "Апрель",
         "isMan": false,
         "profession": "S4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 875
       },
       {
         "month": "Май",
         "isMan": true,
         "profession": "U5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1250
       },
       {
         "month": "Июнь",
         "isMan": false,
         "profession": "R7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 800
       },
       {
         "month": "Июль",
         "isMan": true,
         "profession": "R4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1000
       },
       {
         "month": "Август",
         "isMan": false,
         "profession": "U3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1425
       },
       {
         "month": "Сентябрь",
         "isMan": true,
         "profession": "S2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1650
       },
       {
         "month": "Октябрь",
         "isMan": false,
         "profession": "S6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1075
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1550
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "R2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1825
       }
     ]
   },
@@ -468,73 +540,85 @@
         "month": "Январь",
         "isMan": true,
         "profession": "T7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 900
       },
       {
         "month": "Февраль",
         "isMan": false,
         "profession": "T6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1375
       },
       {
         "month": "Март",
         "isMan": true,
         "profession": "S6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 725
       },
       {
         "month": "Апрель",
         "isMan": false,
         "profession": "S1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1500
       },
       {
         "month": "Май",
         "isMan": true,
         "profession": "U2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 900
       },
       {
         "month": "Июнь",
         "isMan": false,
         "profession": "R5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 825
       },
       {
         "month": "Июль",
         "isMan": true,
         "profession": "R1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 775
       },
       {
         "month": "Август",
         "isMan": false,
         "profession": "U4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1500
       },
       {
         "month": "Сентябрь",
         "isMan": true,
         "profession": "S3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1050
       },
       {
         "month": "Октябрь",
         "isMan": false,
         "profession": "S7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1025
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1075
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "R3",
-        "characterType": "brachets"
+        "characterType": "brackets",
+        "year": 1675
       }
     ]
   },
@@ -545,73 +629,85 @@
         "month": "Январь",
         "isMan": false,
         "profession": "R1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1725
       },
       {
         "month": "Февраль",
         "isMan": true,
         "profession": "U4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1325
       },
       {
         "month": "Март",
         "isMan": false,
         "profession": "U6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1650
       },
       {
         "month": "Апрель",
         "isMan": true,
         "profession": "R1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1625
       },
       {
         "month": "Май",
         "isMan": false,
         "profession": "T2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1675
       },
       {
         "month": "Июнь",
         "isMan": true,
         "profession": "T5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1075
       },
       {
         "month": "Июль",
         "isMan": false,
         "profession": "S1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 875
       },
       {
         "month": "Август",
         "isMan": true,
         "profession": "S4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 800
       },
       {
         "month": "Сентябрь",
         "isMan": false,
         "profession": "U3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 700
       },
       {
         "month": "Октябрь",
         "isMan": true,
         "profession": "R7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 900
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1775
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "U3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1825
       }
     ]
   },
@@ -622,73 +718,85 @@
         "month": "Январь",
         "isMan": false,
         "profession": "R2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1850
       },
       {
         "month": "Февраль",
         "isMan": true,
         "profession": "U5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 700
       },
       {
         "month": "Март",
         "isMan": false,
         "profession": "U3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1300
       },
       {
         "month": "Апрель",
         "isMan": true,
         "profession": "R2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1100
       },
       {
         "month": "Май",
         "isMan": false,
         "profession": "T6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1400
       },
       {
         "month": "Июнь",
         "isMan": true,
         "profession": "T1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1800
       },
       {
         "month": "Июль",
         "isMan": false,
         "profession": "S2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1125
       },
       {
         "month": "Август",
         "isMan": true,
         "profession": "S5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1475
       },
       {
         "month": "Сентябрь",
         "isMan": false,
         "profession": "U7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1025
       },
       {
         "month": "Октябрь",
         "isMan": true,
         "profession": "R4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1725
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1800
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "U7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 700
       }
     ]
   },
@@ -699,73 +807,85 @@
         "month": "Январь",
         "isMan": false,
         "profession": "R3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1450
       },
       {
         "month": "Февраль",
         "isMan": true,
         "profession": "U2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 800
       },
       {
         "month": "Март",
         "isMan": false,
         "profession": "U4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 725
       },
       {
         "month": "Апрель",
         "isMan": true,
         "profession": "R3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1550
       },
       {
         "month": "Май",
         "isMan": false,
         "profession": "T7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 500
       },
       {
         "month": "Июнь",
         "isMan": true,
         "profession": "T6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1325
       },
       {
         "month": "Июль",
         "isMan": false,
         "profession": "S3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1800
       },
       {
         "month": "Август",
         "isMan": true,
         "profession": "S2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1700
       },
       {
         "month": "Сентябрь",
         "isMan": false,
         "profession": "U5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1000
       },
       {
         "month": "Октябрь",
         "isMan": true,
         "profession": "R1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1100
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1650
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "U5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 550
       }
     ]
   },
@@ -776,73 +896,85 @@
         "month": "Январь",
         "isMan": false,
         "profession": "R4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1225
       },
       {
         "month": "Февраль",
         "isMan": true,
         "profession": "U3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year":925
       },
       {
         "month": "Март",
         "isMan": false,
         "profession": "U1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1525
       },
       {
         "month": "Апрель",
         "isMan": true,
         "profession": "R4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1125
       },
       {
         "month": "Май",
         "isMan": false,
         "profession": "T5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 625
       },
       {
         "month": "Июнь",
         "isMan": true,
         "profession": "T7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1300
       },
       {
         "month": "Июль",
         "isMan": false,
         "profession": "S4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1250
       },
       {
         "month": "Август",
         "isMan": true,
         "profession": "S3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 750
       },
       {
         "month": "Сентябрь",
         "isMan": false,
         "profession": "U2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1425
       },
       {
         "month": "Октябрь",
         "isMan": true,
         "profession": "R6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 600
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1475
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "U2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1150
       }
     ]
   },
@@ -853,73 +985,85 @@
         "month": "Январь",
         "isMan": false,
         "profession": "R5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1000
       },
       {
         "month": "Февраль",
         "isMan": true,
         "profession": "U7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1700
       },
       {
         "month": "Март",
         "isMan": false,
         "profession": "U2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1225
       },
       {
         "month": "Апрель",
         "isMan": true,
         "profession": "R5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1025
       },
       {
         "month": "Май",
         "isMan": false,
         "profession": "T1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1450
       },
       {
         "month": "Июнь",
         "isMan": true,
         "profession": "T4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1625
       },
       {
         "month": "Июль",
         "isMan": false,
         "profession": "S5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 950
       },
       {
         "month": "Август",
         "isMan": true,
         "profession": "S7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1100
       },
       {
         "month": "Сентябрь",
         "isMan": false,
         "profession": "U6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 425
       },
       {
         "month": "Октябрь",
         "isMan": true,
         "profession": "R3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1175
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1350
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "U6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1525
       }
     ]
   },
@@ -930,73 +1074,85 @@
         "month": "Январь",
         "isMan": false,
         "profession": "R6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 975
       },
       {
         "month": "Февраль",
         "isMan": true,
         "profession": "U1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 450
       },
       {
         "month": "Март",
         "isMan": false,
         "profession": "U7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 925
       },
       {
         "month": "Апрель",
         "isMan": true,
         "profession": "R6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 725
       },
       {
         "month": "Май",
         "isMan": false,
         "profession": "T3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 1375
       },
       {
         "month": "Июнь",
         "isMan": true,
         "profession": "T2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 700
       },
       {
         "month": "Июль",
         "isMan": false,
         "profession": "S6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1200
       },
       {
         "month": "Август",
         "isMan": true,
         "profession": "S1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1350
       },
       {
         "month": "Сентябрь",
         "isMan": false,
         "profession": "U4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1275
       },
       {
         "month": "Октябрь",
         "isMan": true,
         "profession": "R5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 925
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 1375
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "U4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 825
       }
     ]
   },
@@ -1007,73 +1163,85 @@
         "month": "Январь",
         "isMan": false,
         "profession": "R7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 925
       },
       {
         "month": "Февраль",
         "isMan": true,
         "profession": "U6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 1750
       },
       {
         "month": "Март",
         "isMan": false,
         "profession": "U5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 1825
       },
       {
         "month": "Апрель",
         "isMan": true,
         "profession": "R7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 875
       },
       {
         "month": "Май",
         "isMan": false,
         "profession": "T4",
-        "characterType": "epsilon"
+        "characterType": "epsilon",
+        "year": 1875
       },
       {
         "month": "Июнь",
         "isMan": true,
         "profession": "T3",
-        "characterType": "brackets"
+        "characterType": "brackets",
+        "year": 825
       },
       {
         "month": "Июль",
         "isMan": false,
         "profession": "S7",
-        "characterType": "omega"
+        "characterType": "omega",
+        "year": 425
       },
       {
         "month": "Август",
         "isMan": true,
         "profession": "S6",
-        "characterType": "psychology"
+        "characterType": "psychology",
+        "year": 675
       },
       {
         "month": "Сентябрь",
         "isMan": false,
         "profession": "U1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1850
       },
       {
         "month": "Октябрь",
         "isMan": true,
         "profession": "R2",
-        "characterType": "circle"
+        "characterType": "circle",
+        "year": 1525
       },
       {
         "month": "Ноябрь",
         "isMan": true,
         "profession": "T5",
-        "characterType": "forever"
+        "characterType": "forever",
+        "year": 800
       },
       {
         "month": "Декабрь",
         "isMan": false,
         "profession": "U1",
-        "characterType": "triangle"
+        "characterType": "triangle",
+        "year": 1350
       }
     ]
   }
