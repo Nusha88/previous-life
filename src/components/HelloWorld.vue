@@ -4,66 +4,71 @@
       class="align-centerfill-height mx-auto"
       max-width="900"
     >
-      <!--      <Professions/>-->
-      <h1 class="text-center text-amber text-uppercase mb-5">Кем вы были в прошлой жизни?</h1>
-      <v-text-field
-        v-model="state.yearOfBirth"
-        clearable
-        label="Год рождения"
-        @click:clear="state.yearOfBirth === ''"
-      />
-      <!--      <LettersByYear />-->
-      <div class="mt-1">
+      <div ref="pdfContent">
+        <h1 class="text-center text-amber text-uppercase mb-5">Кем вы были в прошлой жизни?</h1>
         <v-text-field
-          v-model="state.monthOfBirth"
+          v-model="state.yearOfBirth"
           clearable
-          label="Месяц рождения"
-          @click:clear="state.monthOfBirth === ''"
+          label="Год рождения"
+          @click:clear="state.yearOfBirth === ''"
         />
-        <v-alert
-          v-if="state.error.length"
-          type="warning"
-          variant="outlined"
-          class="mb-5"
-          prominent
-        >
-          {{ state.error }}
-        </v-alert>
-      </div>
-      <v-btn
-        class="mb-5"
-        :disabled="isButtonDisabled"
-        variant="outlined"
-        @click="onFindProfession"
-      >
-        Узнать профессию
-      </v-btn>
-      <div
-        v-if="!isEmpty(state.profession)"
-        class="mt-5 text-center"
-      >
-        <h2 class="mb-3"><span class="text-amber">В прошлой жизни вы были</span> {{ gender }}</h2>
-        <h2 class="mb-3"><span class="text-amber">Предположительная профессия: </span>{{ state.profession.name }}</h2>
-      </div>
-      <div v-if="!isEmpty(state.profession)" class="mt-5">
-        <v-text-field
-          v-model="state.dateOfBirth"
-          clearable
-          label="Число рождения"
-          @click:clear="state.dateOfBirth === ''"
-        />
+        <!--      <LettersByYear />-->
+        <div class="mt-1">
+          <v-text-field
+            v-model="state.monthOfBirth"
+            clearable
+            label="Месяц рождения"
+            @click:clear="state.monthOfBirth === ''"
+          />
+          <v-alert
+            v-if="state.error.length"
+            type="warning"
+            variant="outlined"
+            class="mb-5"
+            prominent
+          >
+            {{ state.error }}
+          </v-alert>
+        </div>
         <v-btn
+          class="mb-5"
+          :disabled="isButtonDisabled"
           variant="outlined"
-          @click="onFindCharacter"
+          @click="onFindProfession"
         >
-          Узнать характер
+          Узнать профессию
         </v-btn>
-        <div v-if="state.character">
-          <h2 class="mt-5 mb-3"><span class="text-amber">Отличительные черты характера в прошлой жизни: </span>
-            {{ state.character }}</h2>
-          <h2 class="mb-3"><span class="text-amber">Предполагаемое место и год рождения:</span>
-            {{ state.placeOfBirth.place }}, {{ state.lifeCharacter.year }}</h2>
-          <h2 class="mb-3"><span class="text-amber">Задача текущей жизни:</span> {{ state.task.description }}</h2>
+        <div
+          v-if="!isEmpty(state.profession)"
+          class="mt-5 text-center"
+        >
+          <h3 class="mb-3"><span class="text-amber">В прошлой жизни вы были</span> {{ gender }}</h3>
+          <h3 class="mb-3"><span class="text-amber">Предположительная профессия: </span>{{ state.profession.name }}</h3>
+        </div>
+        <div v-if="!isEmpty(state.profession)" class="mt-5">
+          <v-text-field
+            v-model="state.dateOfBirth"
+            clearable
+            label="Число рождения"
+            @click:clear="state.dateOfBirth === ''"
+          />
+          <v-btn
+            variant="outlined"
+            @click="onFindCharacter"
+          >
+            Узнать характер
+          </v-btn>
+          <div v-if="state.character">
+            <h3 class="mt-5 mb-3"><span class="text-amber">Отличительные черты характера в прошлой жизни: </span>
+              {{ state.character }}</h3>
+            <h3 class="mb-3"><span class="text-amber">Предполагаемое место и год рождения:</span>
+              {{ state.placeOfBirth.place }}, {{ state.lifeCharacter.year }}</h3>
+            <h3 class="mb-3"><span class="text-amber">Задача текущей жизни:</span> {{ state.task.description }}</h3>
+            <hr>
+          </div>
+          <div v-if="state.task.description" class="text-center mt-7">
+            <v-btn color="amber" width="50%" @click="generatePDF">Save results</v-btn>
+          </div>
         </div>
       </div>
     </v-responsive>
@@ -71,16 +76,19 @@
 </template>
 
 <script setup>
+import html2pdf from 'html2pdf.js';
 import letterByYear from '/src/assets/jsons/letterByBirthYear.json'
 import lifeCharacter from '/src/assets/jsons/previousLifeCharacter.json'
 import professionList from '/src/assets/jsons/professions.json'
 import characters from '/src/assets/jsons/characters.json'
 import places from '/src/assets/jsons/placeOfBirth.json'
 import tasks from '/src/assets/jsons/tasks.json'
-import {computed, reactive, onMounted, watch} from "vue";
+import {computed, reactive, onMounted, watch, ref} from "vue";
 import {isEmpty} from "lodash";
 
 const yearRegex = /(18[9][0-9]|19\d\d|200\d|201[0-9]|2020)/;
+
+const pdfContent = ref(null);
 
 const state = reactive({
   yearOfBirth: '',
@@ -150,6 +158,17 @@ const onFindCharacter = () => {
   state.placeOfBirth = state.places.find((place) => place.id === placeId)
 }
 
+const generatePDF = () => {
+  const options = {
+    margin: 1,
+    filename: 'previous-life.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2 },
+    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+  };
+
+  html2pdf().set(options).from(pdfContent.value).save();
+}
 const resetFields = () => {
   state.yearOfBirth = ''
   state.monthOfBirth = ''
