@@ -87,20 +87,19 @@
               <span class="text-amber">Задача текущей жизни:</span>
               {{ state.task.description }}
             </h3>
-            <hr />
           </div>
 
           <!-- Button to Save Results -->
-          <div v-if="state.task.description" class="text-center mt-7">
-            <v-btn
-              color="amber"
-              class="ma-auto"
-              max-width="300"
-              @click="generatePDF"
-            >
-              Save results
-            </v-btn>
-          </div>
+<!--          <div v-if="state.task.description" class="text-center mt-7">-->
+<!--            <v-btn-->
+<!--              color="amber"-->
+<!--              class="ma-auto"-->
+<!--              max-width="300"-->
+<!--              @click="generatePDF"-->
+<!--            >-->
+<!--              Save results-->
+<!--            </v-btn>-->
+<!--          </div>-->
         </div>
       </div>
     </v-row>
@@ -108,7 +107,7 @@
 </template>
 
 <script setup>
-import html2pdf from 'html2pdf.js';
+// import html2pdf from 'html2pdf.js';
 import letterByYear from '/src/assets/jsons/letterByBirthYear.json'
 import lifeCharacter from '/src/assets/jsons/previousLifeCharacter.json'
 import professionList from '/src/assets/jsons/professions.json'
@@ -190,17 +189,17 @@ const onFindCharacter = () => {
   state.placeOfBirth = state.places.find((place) => place.id === placeId)
 }
 
-const generatePDF = () => {
-  const options = {
-    margin: 1,
-    filename: 'previous-life.pdf',
-    image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2 },
-    jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
-  };
-
-  html2pdf().set(options).from(pdfContent.value).save();
-}
+// const generatePDF = () => {
+//   const options = {
+//     margin: 1,
+//     filename: 'previous-life.pdf',
+//     image: { type: 'jpeg', quality: 0.98 },
+//     html2canvas: { scale: 2 },
+//     jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+//   };
+//
+//   html2pdf().set(options).from(pdfContent.value).save();
+// }
 const resetFields = () => {
   state.yearOfBirth = ''
   state.monthOfBirth = ''
