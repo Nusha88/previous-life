@@ -1,35 +1,40 @@
 <template>
-  <v-container class="fill-height">
-    <v-responsive
-      class="align-centerfill-height mx-auto"
-      max-width="900"
-    >
-      <div ref="pdfContent">
-        <h1 class="text-center text-amber text-uppercase mb-5">Кем вы были в прошлой жизни?</h1>
+  <v-container class="fill-height pa-5">
+    <v-row class="d-flex flex-column align-center">
+      <!-- Content to generate PDF -->
+      <div ref="pdfContent" class="text-center">
+        <h1 class="text-center text-amber text-uppercase mb-5">
+          Кем вы были в прошлой жизни?
+        </h1>
+
+        <!-- Year of Birth Input -->
         <v-text-field
           v-model="state.yearOfBirth"
           clearable
           label="Год рождения"
-          @click:clear="state.yearOfBirth === ''"
+          class="mb-3"
         />
-        <!--      <LettersByYear />-->
-        <div class="mt-1">
-          <v-text-field
-            v-model="state.monthOfBirth"
-            clearable
-            label="Месяц рождения"
-            @click:clear="state.monthOfBirth === ''"
-          />
-          <v-alert
-            v-if="state.error.length"
-            type="warning"
-            variant="outlined"
-            class="mb-5"
-            prominent
-          >
-            {{ state.error }}
-          </v-alert>
-        </div>
+
+        <!-- Month of Birth Input -->
+        <v-text-field
+          v-model="state.monthOfBirth"
+          clearable
+          label="Месяц рождения"
+          class="mb-3"
+        />
+
+        <!-- Alert for Errors -->
+        <v-alert
+          v-if="state.error.length"
+          type="warning"
+          variant="outlined"
+          class="mb-5"
+          prominent
+        >
+          {{ state.error }}
+        </v-alert>
+
+        <!-- Button to Find Profession -->
         <v-btn
           class="mb-5"
           :disabled="isButtonDisabled"
@@ -38,40 +43,67 @@
         >
           Узнать профессию
         </v-btn>
-        <div
-          v-if="!isEmpty(state.profession)"
-          class="mt-5 text-center"
-        >
-          <h3 class="mb-3"><span class="text-amber">В прошлой жизни вы были</span> {{ gender }}</h3>
-          <h3 class="mb-3"><span class="text-amber">Предположительная профессия: </span>{{ state.profession.name }}</h3>
+
+        <!-- Profession Details -->
+        <div v-if="!isEmpty(state.profession)" class="mt-5">
+          <h3 class="mb-3">
+            <span class="text-amber">В прошлой жизни вы были:</span> {{ gender }}
+          </h3>
+          <h3 class="mb-3">
+            <span class="text-amber">Предположительная профессия:</span>
+            {{ state.profession.name }}
+          </h3>
         </div>
+
+        <!-- Additional Details -->
         <div v-if="!isEmpty(state.profession)" class="mt-5">
           <v-text-field
             v-model="state.dateOfBirth"
             clearable
             label="Число рождения"
-            @click:clear="state.dateOfBirth === ''"
+            class="mb-3"
           />
           <v-btn
             variant="outlined"
+            class="mb-3"
             @click="onFindCharacter"
           >
             Узнать характер
           </v-btn>
+
+          <!-- Character Details -->
           <div v-if="state.character">
-            <h3 class="mt-5 mb-3"><span class="text-amber">Отличительные черты характера в прошлой жизни: </span>
-              {{ state.character }}</h3>
-            <h3 class="mb-3"><span class="text-amber">Предполагаемое место и год рождения:</span>
-              {{ state.placeOfBirth.place }}, {{ state.lifeCharacter.year }}</h3>
-            <h3 class="mb-3"><span class="text-amber">Задача текущей жизни:</span> {{ state.task.description }}</h3>
-            <hr>
+            <h3 class="mt-5 mb-3">
+              <span class="text-amber">
+                Отличительные черты характера в прошлой жизни:
+              </span>
+              {{ state.character }}
+            </h3>
+            <h3 class="mb-3">
+              <span class="text-amber">Предполагаемое место и год рождения:</span>
+              {{ state.placeOfBirth.place }}, {{ state.lifeCharacter.year }}
+            </h3>
+            <h3 class="mb-3">
+              <span class="text-amber">Задача текущей жизни:</span>
+              {{ state.task.description }}
+            </h3>
+            <hr />
           </div>
+
+          <!-- Button to Save Results -->
           <div v-if="state.task.description" class="text-center mt-7">
-            <v-btn color="amber" width="50%" @click="generatePDF">Save results</v-btn>
+            <v-btn
+              color="amber"
+              class="ma-auto"
+              max-width="300"
+              @click="generatePDF"
+            >
+              Save results
+            </v-btn>
           </div>
         </div>
       </div>
-    </v-responsive>
+    </v-row>
   </v-container>
 </template>
 
