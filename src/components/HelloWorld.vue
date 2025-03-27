@@ -2,24 +2,27 @@
   <v-container class="fill-height pa-5">
     <v-row class="d-flex flex-column align-center">
       <!-- Content to generate PDF -->
-      <div ref="pdfContent" class="text-center">
+      <div
+        ref="pdfContent"
+        class="text-center"
+      >
         <h1 class="text-center text-amber text-uppercase mb-5">
           Кем вы были в прошлой жизни?
         </h1>
 
         <!-- Year of Birth Input -->
-        <v-text-field
+        <v-autocomplete
           v-model="state.yearOfBirth"
-          clearable
-          label="Год рождения"
+          :items="state.years"
+          label="Выберите год рождения"
           class="mb-3"
         />
 
         <!-- Month of Birth Input -->
-        <v-text-field
+        <v-autocomplete
           v-model="state.monthOfBirth"
-          clearable
-          label="Месяц рождения"
+          :items="state.months"
+          label="Выберите месяц"
           class="mb-3"
         />
 
@@ -45,7 +48,10 @@
         </v-btn>
 
         <!-- Profession Details -->
-        <div v-if="!isEmpty(state.profession)" class="mt-5">
+        <div
+          v-if="!isEmpty(state.profession)"
+          class="mt-5"
+        >
           <h3 class="mb-3">
             <span class="text-amber">В прошлой жизни вы были:</span> {{ gender }}
           </h3>
@@ -56,13 +62,17 @@
         </div>
 
         <!-- Additional Details -->
-        <div v-if="!isEmpty(state.profession)" class="mt-5">
-          <v-text-field
+        <div
+          v-if="!isEmpty(state.profession)"
+          class="mt-5"
+        >
+          <v-select
             v-model="state.dateOfBirth"
-            clearable
-            label="Число рождения"
+            :items="state.dates"
+            label="Выберите число рождения"
             class="mb-3"
           />
+
           <v-btn
             variant="outlined"
             class="mb-3"
@@ -89,17 +99,17 @@
             </h3>
           </div>
 
-          <!-- Button to Save Results -->
-<!--          <div v-if="state.task.description" class="text-center mt-7">-->
-<!--            <v-btn-->
-<!--              color="amber"-->
-<!--              class="ma-auto"-->
-<!--              max-width="300"-->
-<!--              @click="generatePDF"-->
-<!--            >-->
-<!--              Save results-->
-<!--            </v-btn>-->
-<!--          </div>-->
+          <!--           Button to Save Results -->
+          <div v-if="state.task.description" class="text-center mt-7">
+            <v-btn
+              color="amber"
+              class="ma-auto"
+              max-width="300"
+              @click="resetFields"
+            >
+              Новый поиск
+            </v-btn>
+          </div>
         </div>
       </div>
     </v-row>
@@ -116,8 +126,6 @@ import places from '/src/assets/jsons/placeOfBirth.json'
 import tasks from '/src/assets/jsons/tasks.json'
 import {computed, reactive, onMounted, watch, ref} from "vue";
 import {isEmpty} from "lodash";
-
-const yearRegex = /(18[9][0-9]|19\d\d|200\d|201[0-9]|2020)/;
 
 const pdfContent = ref(null);
 
@@ -138,6 +146,9 @@ const state = reactive({
   characters: [],
   places: [],
   tasks: [],
+  years: [],
+  dates: [],
+  months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
 })
 
 const isButtonDisabled = computed(() => Boolean(!state.yearOfBirth.length && !state.monthOfBirth.length))
@@ -145,25 +156,7 @@ const isButtonDisabled = computed(() => Boolean(!state.yearOfBirth.length && !st
 const gender = computed(() => state.lifeCharacter.isMan ? 'мужчиной' : 'женщиной')
 
 const onFindLetter = () => {
-
-  if (state.yearOfBirth.length !== 4) {
-    state.error = 'Введите правильный год рождения';
-    return;
-  }
-
-  const firstDigit = state.yearOfBirth.charAt(0);
-  if (firstDigit !== '1' && firstDigit !== '2') {
-    state.error = 'Введите правильный год рождения';
-    return;
-  }
-
-  state.error = '';
-  const matches = state.yearOfBirth.match(yearRegex);
-  if (matches && matches.length > 0) {
-    state.yearLetter = state.lettersByYear.find(obj => Number(obj.year) === Number(matches[0]));
-  } else {
-    state.error = 'Указанный год не найден';
-  }
+  state.yearLetter = state.lettersByYear.find(obj => Number(obj.year) === state.yearOfBirth);
 }
 
 const isOddOrEven = (number) => number % 2 === 0
@@ -211,6 +204,8 @@ const resetFields = () => {
 }
 
 onMounted(() => {
+  state.years = Array.from({length: 2020 - 1890 + 1}, (_, i) => 1890 + i)
+  state.dates = Array.from({length: 31}, (_, i) => i + 1)
   state.lettersByYear = letterByYear
   state.lifeCharacters = lifeCharacter
   state.professionList = professionList
